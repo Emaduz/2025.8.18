@@ -177,7 +177,7 @@ const HomePage: React.FC = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center space-y-4 mb-16">
               <h2 className="text-4xl font-bold text-[#8f1819] dark:text-[#bd7b6a]">
-                {language === 'en' ? 'Featured Work' : 'أعمال مميزة'}
+                {language === 'en' ? 'Lates Work' : 'آخر الأعمال'}
               </h2>
               <p className="text-xl text-[#9c7860] dark:text-[#d9cab1]/80 max-w-2xl mx-auto">
                 {language === 'en' 
