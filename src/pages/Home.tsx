@@ -45,7 +45,7 @@ const HomePage: React.FC = () => {
     {
       id: 3,
       title: language === 'en' ? 'Print Materials' : 'المواد المطبوعة',
-      category: language === 'en' ? 'Print Design' : 'تصميم طباعي',
+      category: language === 'en' ?,
       image: 'https://pub-cdn.sider.ai/u/U0AWH647XGE/web-coder/68867f69f2d3a0ac8dcde35e/resource/45b52b6a-1af8-4ba9-9528-8ec3e506eb17.jpg',
     },
   ];
