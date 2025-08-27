@@ -32,20 +32,14 @@ const HomePage: React.FC = () => {
   const featuredProjects = [
     {
       id: 1,
-      title: language === 'en' ? 'Corporate Branding' : 'الهوية التجارية',
-      category: language === 'en' ?,
       image: 'https://pub-cdn.sider.ai/u/U0AWH647XGE/web-coder/68867f69f2d3a0ac8dcde35e/resource/160a3f0c-bc9c-4a75-8e33-245300003eda.jpg',
     },
     {
       id: 2,
-      title: language === 'en' ? 'Logo Design Collection' : 'مجموعة تصميم الشعارات',
-      category: language === 'en' ?,
       image: 'https://pub-cdn.sider.ai/u/U0AWH647XGE/web-coder/68867f69f2d3a0ac8dcde35e/resource/4f105e41-42fd-4247-9128-198f8887e857.jpg',
     },
     {
       id: 3,
-      title: language === 'en' ? 'Print Materials' : 'المواد المطبوعة',
-      category: language === 'en' ?,
       image: 'https://pub-cdn.sider.ai/u/U0AWH647XGE/web-coder/68867f69f2d3a0ac8dcde35e/resource/45b52b6a-1af8-4ba9-9528-8ec3e506eb17.jpg',
     },
   ];
