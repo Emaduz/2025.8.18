@@ -22,10 +22,6 @@ const HomePage: React.FC = () => {
   const { language } = useTheme();
   const { t } = useTranslation(language);
 
-  // Absolute URL to uploaded brand logo (keeps clarity across devices)
-  const brandLogo =
-    'https://pub-cdn.sider.ai/u/U0AWH647XGE/web-coder/68867f69f2d3a0ac8dcde35e/resource/3d4bc5cc-922f-41e5-bfd5-ddef9df7445e.png';
-
   // Stats (Awards removed as requested)
   const stats = [
     { icon: Briefcase, value: '9+', label: language === 'en' ? 'Years Experience' : 'سنوات خبرة' },
@@ -37,13 +33,13 @@ const HomePage: React.FC = () => {
     {
       id: 1,
       title: language === 'en' ? 'Corporate Branding' : 'الهوية التجارية',
-      category: language === 'en' ? 'Branding' : 'علامة تجارية',
+      category: language === 'en' ?,
       image: 'https://pub-cdn.sider.ai/u/U0AWH647XGE/web-coder/68867f69f2d3a0ac8dcde35e/resource/160a3f0c-bc9c-4a75-8e33-245300003eda.jpg',
     },
     {
       id: 2,
       title: language === 'en' ? 'Logo Design Collection' : 'مجموعة تصميم الشعارات',
-      category: language === 'en' ? 'Logo Design' : 'تصميم شعارات',
+      category: language === 'en' ?,
       image: 'https://pub-cdn.sider.ai/u/U0AWH647XGE/web-coder/68867f69f2d3a0ac8dcde35e/resource/4f105e41-42fd-4247-9128-198f8887e857.jpg',
     },
     {
