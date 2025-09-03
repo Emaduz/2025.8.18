@@ -62,6 +62,10 @@ export const projects: Project[] = [
     tags: ['Medica', 'Luxury', 'Branding'],
     images: [
       'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/5d60ca214380481.675743f089720.jpeg',
+      'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/0bbb6f210092607.670b6931a6122.jpg',
+      'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/1e3a4b210092607.670b6931a81af.jpg',
+      'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/74b3df210092607.670b6931a3c15.jpg',
+      'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/396594210092607.670b6931a2e1a.jpg',
     ],
     comments: [
       {
